@@ -112,7 +112,6 @@ this.ckan.module('resource-view-filters', function (jQuery) {
               include_total: false
             };
 
-
             if (term !== '') {
               var q = {};
               if (term.indexOf(' ') == -1) {
